@@ -34,7 +34,7 @@ CREATE TABLE `users` (
   `lastname` varchar(250) NOT NULL,
   `email` varchar(250) NOT NULL,
   `stack` varchar(250) NOT NULL,
-  `location` varchar(250) NOT NULL,
+  `image` BLOB NOT NULL,
   `description` text NOT NULL,
   `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
